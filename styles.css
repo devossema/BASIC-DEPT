@@ -1,0 +1,640 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    position: relative;
+    background-color: #efefef;
+    color: #272624;
+}
+.row1{
+    background-image: url('https://avatars.mds.yandex.net/i?id=b9017a22eb00bc2ca5ea8ea7bb403f95_l-11846045-images-thumbs&n=13');
+    height: 900px;
+    overflow: hidden;
+}
+.row1 .header{
+    display: grid;
+    grid-template-columns: 30% 70% 20%;
+    height: 100px;
+    padding: 40px 50px 0px 100px;
+    background-color: transparent;
+}
+.row1 .header p{
+    font-weight: 800;
+    font-size: 25px;
+}
+.row1 .header .menu{
+    display: none;
+}
+.row1 .header a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.row1 .header .page a{
+    font-weight: 900;
+}
+
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    padding: 150px;
+}
+.row2 .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row2 .icon a{
+    text-align: center;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+.row2 .icon a:hover{
+    text-decoration: underline;
+}
+.row2 .icon a:hover img{
+    width: 185px;
+}
+.row2 .icon:nth-child(1) img{
+    margin-top: 70px;
+}
+.row2 .icon:nth-child(3) img{
+    margin-top: 90px;
+}
+.row2 img{
+    width: 180px;
+}
+
+.row3{
+    border-bottom: 1px black solid;
+    padding-bottom: 100px;
+}
+.row3 .row3-1{
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+.row3 .row3-1 .row3-1column1 p{
+    font-size: 37px;
+    font-weight: 600;
+}
+.row3 .row3-1 .row3-1column1{
+    display: grid;
+    gap: 50px;
+}
+.row3 .row3-1 .row3-1column1 button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    border: 1px black solid;
+    background-color: white;
+}
+.row3 .row3-1 .row3-1column1 button:hover{
+    background-color: black;
+    color: white;
+}
+.row3 .row3-1 .row3-1column1 button:hover a{
+    color: white;
+}
+.row3 .row3-1 .row3-1column1 button a{
+    color: black;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-decoration: none;
+}
+.row3 .row3-1 .row3-1column2 h2{
+    font-size: 150px;
+    margin-left: 200px;
+    font-weight: 800;
+}
+
+
+.row3 .row3-2{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    gap: 20px;
+}
+.row3 .row3-2 .row3-2column1{
+    display: grid;
+    gap: 30px;
+}
+.row3 .row3-2 .row3-2column1 p{
+    width: 80%;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.row3 .row3-2 .row3-2column1 span{
+    font-weight: 700;
+    font-size: 16px;
+}
+.row3 .row3-2 img{
+    width: 420px;
+}
+.row3 .row3-2 img:hover{
+    width: 430px;
+    
+}
+
+
+.row4{
+    margin-top: 100px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.row4 h2{
+    width: 20%;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.row4 .row4-row1{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+}
+.row4 .row4-row1 .row1-column1{
+    display: grid;
+    width: 100%;
+    gap: 0px;
+}
+.row4 .row4-row1 .row1-column1:nth-child(4) img{
+    width: 40px;
+}
+.row4 .row4-row1 .row1-column1 p{
+    font-size: 14px;
+}
+.row4 .row4-row1 .row1-column1 span{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+}
+.row4 img{
+    width: 100px;
+}
+
+
+.row5{
+    padding: 100px;
+    display: grid;
+    border-top: 1px solid black;
+    gap: 60px;
+    height: 800px;
+    grid-template-columns: repeat(2, 50%);
+}
+.row5:hover{
+    background-color: #272624;
+    color: #f9cdce;
+}
+.row5 .column1{
+    display: grid;
+    gap: 20px;
+}
+.row5 p{
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.row5 span{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.row5 span span1{
+    font-weight: 600;
+}
+.row5 .column1 button:hover{
+    background-color: pink;
+}
+.row5 .column1 button:hover a{
+    color: #272624;
+}
+.row5 .column1 button{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    border: 1px pink solid;
+    background-color: transparent;
+}
+.row5 .column1 button a{
+    font-size: 11px;
+    text-decoration: none;
+    color: pink;
+    font-weight: 600;
+}
+.row5 .column2 video{
+    height: 500px;
+    width: 600px;
+}
+
+
+.row6{
+    padding: 100px;
+    display: grid;
+    grid-template-rows: 100px repeat(12, 1fr);
+    gap: 100px;
+}
+.row6 .row6-row1{
+    height: 100px;
+    border-bottom: 1px black solid;
+    display: grid;
+    grid-template-columns: 90% 5%;
+    margin-bottom: 70px;
+}
+.row6 .row6-row1 p{
+    font-size: 45px;
+    font-weight: 700;
+    width: 220px;
+    margin-top: -40px;
+}
+.row6 .row6-row1 button{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    border: 1px black solid;
+}
+.row6 .row6-row1 button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 11px;
+}
+.row6 .row6-row1 button:hover{
+    background-color: #272624;
+}
+.row6 .row6-row1 button:hover a{
+    color: #efefef;
+}
+.row6 .row6-row2{
+    padding-bottom: 40px;
+    border-bottom: 1px black solid;
+    display: grid; 
+}
+
+.row6 .row6-row2:hover img{
+    width: 54%;
+}
+.row6 .row6-row2 a{
+    display: flex;
+    flex-direction: column;
+    font-size: 37px;
+    font-weight: 550;
+    width: 650px;
+    text-transform: uppercase;
+    line-height: 32px;
+    color: black;
+    text-decoration: none;
+}
+.row6 .row6-row2:hover a{
+    text-decoration: underline;
+}
+.row6 .row6-row2 a span{
+    font-weight: 600;
+    font-size: 12px;
+    font-weight: 500;
+}
+.row6 .row6-row2 span span{
+    font-weight: 600;
+}
+
+
+.footer{
+    padding: 100px;
+    background-color: #272624;
+    color: white;
+    display: grid;
+    grid-template-rows: 95% 20%;
+}
+.footer .top{
+    display: flex;
+    gap: 200px;
+    flex-direction: row;
+}
+.footer .top .column1 p:nth-child(2){
+    display: none;
+}
+.footer .top .column1{
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+}
+.footer .top .column1 .text p{
+    text-transform: uppercase;
+    width: 300px;
+}
+.footer .top .column1 .text input{
+    display: grid;
+    width: 500px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.footer .top .column1 .text input::placeholder{
+    font-size: 16px;
+}
+.footer .top .column1 .text button{
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    margin-top: -50px;
+    margin-left: 450px;
+}
+.footer .top .column1 .text button a{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+.footer .column2{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.footer .column2 p{
+    font-size: 30px;
+    font-weight: 600;
+}
+.footer .column2 p span{
+    text-decoration: underline;
+}
+.footer .column2 .ul{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+
+}
+.footer .column2 .ul ul li{
+    list-style: none;
+    line-height: 25px;
+}
+.footer .column2 .ul ul li:hover{
+    text-decoration: underline;
+}
+.footer .top .column1 p{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+.bottom{
+    background-color: #21201e;
+    width: 100%;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 35% 45% 20%;
+    place-content: center;
+    padding-left: 100px;
+}
+.bottom a{
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.a a img{
+    position: fixed;
+    cursor: pointer;
+    z-index: 1000;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+
+
+
+
+@media only screen and (max-device-width : 1000px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        gap: 50px;
+    }
+    .row1{
+        width: 1000px;
+        padding: 0px;
+    }
+    .row1 .header{
+        padding: 30px 50px;
+        display: flex;
+        flex-direction: row;
+        gap: 65%;
+    }
+    .row1 .header .page{
+        display: none;
+    }
+    .row1 .header .nav{
+        display: none;
+    }
+    .row1 .header .menu{
+        display: block;
+    }
+    .row1 .header p{
+        font-size: 30px;
+    }
+    .row1 .header .menu a{
+        font-weight: 900;
+        font-size: 25px;
+    }
+    .row2{
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+    }
+    .row2 .icon{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .row2 p{
+        width: 200px;
+    }
+    .row3{
+        padding: 0;
+        gap: 20px;
+        width: 100%;
+        height: 3600px;
+    }
+    .row3 .row3-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .row3 .row3-1{
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 0px;
+    }.row3 .row3-1 .row3-1column2 h2{
+        font-size: 20px;
+    }
+    .row3 .row3-2 .row3-2column1 img{
+        width: 100%
+    }
+    .row3 .row3-1 .row3-1column1{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .row3 .row3-1 .row3-1column1 p{
+        font-size: 18px;
+        width: 50%;
+    }
+    .row3 .row3-2{
+        padding-left: 0px;
+        padding-right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .row4{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .row4 .row4-row1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .row4 .row4-row1 .row1-column1 span{
+        font-size: 13px;
+    }
+    .row5{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 1100px;
+        text-align: center;
+    }
+    .row5 .column1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .row6 .row6-row2{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .row6 .row6-row1{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        place-content: center;
+        padding-bottom: 160px;
+    }
+    .row6 .row6-row1 button{
+        margin-top: 40px;
+        width: 140px;
+        height: 50px;
+        border-radius: 50px;
+    }
+    .footer .top{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .footer .top .column2 p{
+        display: none;
+    }
+    .footer .top .column2 .ul{
+        display: flex;
+        margin-top: -150px;
+        flex-direction: column;
+        width: 100%;
+        gap: 40px;
+    }
+    .footer .top .column2 .ul ul li{
+        font-size: 20px;
+    }
+    .footer .top .column2 .ul ul{
+        font-size: 22px;
+        font-weight: 600;
+                
+    }
+    .footer .top .column1{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .footer .top .column1 p:nth-child(1){
+        font-size: 60px;
+    }
+    .footer .top .column1 p:nth-child(2){
+        font-size: 40px;
+    }
+    .footer .top .column1 .text p{
+        font-size: 25px;
+    }
+    .footer .top .column1 .text input{
+        width: 100%;
+        height: 80px;
+    }
+    .footer .top .column1 .text button a{
+        margin-left: 550px;
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+    .footer .top .column1 .text input::placeholder{
+        font-size: 25px;
+        font-family: 'Montserrat';
+    }
+    .footer .top .column1 p:nth-child(2){
+        display: block;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 120px;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottom a{
+        font-size: 20px;
+        font-weight: 550;
+    }
+}
+
+
+
